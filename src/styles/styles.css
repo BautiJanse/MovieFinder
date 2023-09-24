@@ -1,0 +1,80 @@
+/* Establece un fondo oscuro */
+body {
+    background-color: #1f1e1e; /* Puedes ajustar el color de fondo según tus preferencias */
+}
+
+/* Estilo para el encabezado h1 */
+.titulo {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 80px;
+    font-size: 36px; /* Ajusta el tamaño del texto según tus preferencias */
+    font-family: Arial, sans-serif; /* Cambia la fuente según tus preferencias */
+    color: #fff; /* Cambia el color del texto a blanco o el que desees */
+}
+
+/* Estilo para centrar el input y el botón */
+.container {
+    text-align: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilo para el input */
+input[type="text"] {
+    width: 350px; /* Ajusta el ancho del input según tus preferencias */
+    padding: 12px; /* Ajusta el espacio interno del input según tus preferencias */
+    font-size: 18px; /* Ajusta el tamaño de la fuente del input según tus preferencias */
+    border-radius: 10px;
+    margin: 20px;
+}
+
+/* Estilo para el botón */
+button {
+    background-color: #8a2be2; /* Cambia el color del botón a violeta fuerte */
+    color: #fff; /* Cambia el color del texto del botón a blanco o el que desees */
+    font-size: 20px; /* Aumenta el tamaño de la fuente del botón */
+    padding: 12px 24px; /* Aumenta el espacio interno del botón */
+    border: none; /* Quita el borde del botón */
+    border-radius: 10px; /* Agrega bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+
+/* Estilo para eliminar el borde del input en algunos navegadores */
+input[type="text"]:focus {
+    outline: none;
+}
+
+
+.listaPeliculas {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .peli {
+    background-color: #1a1919;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .peli img {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .peli h2 {
+    font-size: 20px;
+    margin: 0.5px;
+
+  }
+  
+  .tituloPeli {
+    margin-bottom: 5px;
+    color: rgb(243, 243, 243);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+
